@@ -85,6 +85,18 @@ a:hover {
 
 /* main body */
 
+.main-container {
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
+.header-footer-wrapper {
+  max-width: 1120px;
+  margin: 0px auto;
+  padding: 0px 20px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -139,10 +151,6 @@ footer {
   text-align: center;
 }
 
-.space-between {
-  margin: 0px 20px 0px 20px;
-}
-
 .short-section-space {
   margin-top: 10px;
 }
@@ -167,15 +175,9 @@ footer {
   .featured {
     grid-template-columns: repeat(2, 1fr);
   }
-  .body-container {
-    margin: 0px auto;
-    padding: 0px 20px;
-  }
+
   .round-image {
     max-width: 45%;
-  }
-  .space-between {
-    margin: 0px;
   }
 }
 @media (min-width: 840px) {
@@ -186,16 +188,6 @@ footer {
     padding-right: 100px;
   }
 
-  .main-container {
-    max-width: 1220px;
-    margin: 0px auto;
-    padding: 0px 20px;
-  }
-  .body-container {
-    max-width: 1000px;
-    margin: 0px auto;
-    padding: 0px 20px;
-  }
   .link-buttons li {
     padding: 35px;
   }
@@ -215,9 +207,6 @@ footer {
   }
   .round-image {
     max-width: 100%;
-  }
-  .space-between {
-    margin: 0px;
   }
 }
 
