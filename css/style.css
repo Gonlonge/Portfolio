@@ -29,7 +29,13 @@ a {
 
 /* header */
 
-.header-footer-background {
+.header-background {
+  background-color: black;
+  background-image: linear-gradient(to left, #01a1eb, black);
+}
+
+.footer-background {
+  padding: 40px 0px 40px 0px;
   background-color: black;
   background-image: linear-gradient(to left, #01a1eb, black);
 }
@@ -110,10 +116,6 @@ body {
   grid-gap: 30px;
 }
 
-footer {
-  padding: 0.1px 0px 20px 0px;
-}
-
 /* images */
 .responsive-image {
   width: 100%;
@@ -136,13 +138,32 @@ footer {
 } */
 
 .responsive-image {
-  width: 100%;
   height: auto;
 }
 /* .images-size {
   width: 400px;
   height: 400px;
   object-fit: cover;
+} */
+
+/* .image-position-1 {
+  position: absolute;
+  width: 35%;
+  z-index: 1;
+}
+.image-position-2 {
+  position: absolute;
+  right: 290px;
+  bottom: 120px;
+  z-index: 3;
+  width: 30%;
+}
+.image-position-3 {
+  position: absolute;
+  left: 160px;
+  bottom: 120px;
+  z-index: 2;
+  width: 30%;
 } */
 
 /* spacers move items*/
@@ -167,8 +188,9 @@ footer {
   margin-right: 25px;
 }
 
-/* screen devices */
-
+.section-line {
+  border: 1px solid #01a1eb;
+}
 @media (min-width: 600px) {
   /* main body */
 
@@ -179,6 +201,32 @@ footer {
   .round-image {
     max-width: 45%;
   }
+  /* images */
+  .size-img img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 220px;
+    object-position: top;
+  }
+  /* .image-position-1 {
+    position: absolute;
+    width: 25%;
+    z-index: 1;
+  }
+  .image-position-2 {
+    position: absolute;
+    right: 100px;
+    bottom: 400px;
+    z-index: 3;
+    width: 20%;
+  }
+  .image-position-3 {
+    position: absolute;
+    left: 460px;
+    bottom: 420px;
+    z-index: 2;
+    width: 18%;
+  } */
 }
 @media (min-width: 840px) {
   /* header */
@@ -208,6 +256,30 @@ footer {
   .round-image {
     max-width: 100%;
   }
+  /* images */
+
+  /* .image-position-1 {
+    max-width: 12%;
+    position: absolute;
+    width: 25%;
+    z-index: 1;
+  }
+  .image-position-2 {
+    max-width: 15%;
+    position: absolute;
+    right: 400px;
+    bottom: 400px;
+    z-index: 3;
+    width: 20%;
+  }
+  .image-position-3 {
+    max-width: 10%;
+    position: absolute;
+    left: 500px;
+    bottom: 440px;
+    z-index: 2;
+    width: 18%;
+  } */
 }
 
 @media (max-width: 880px) {
