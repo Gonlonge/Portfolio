@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Gonzalo Longe, Portfolio" />
+    <meta name="description" content="Gonzalo Longe, Portfolio, about me" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,8 +17,10 @@
   <body>
     <header>
       <section class="header-background">
-        <nav class="navhamburger header-footer-wrapper">
-          <a href="home.html"><h1 class="homepage-logo">G . L</h1></a>
+        <nav class="nav-hamburger header-footer-wrapper">
+          <a class="button-style" href="home.html"
+            ><h1 class="homepage-logo button-style-body">G . L</h1></a
+          >
           <a href="#" class="burger-button">
             <span class="hamburger"></span>
             <span class="hamburger"></span>
@@ -26,9 +28,9 @@
           </a>
           <div class="link-buttons">
             <ul>
-              <li><a href="home.html">Portfolio</a></li>
-              <li><a href="about.html">About me</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a class="button-style" href="home.html">Portfolio</a></li>
+              <li><a class="button-style" href="about.html">About me</a></li>
+              <li><a class="button-style" href="contact.html">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -38,14 +40,16 @@
       <div class="section-space long">
         <h2>About Me</h2>
         <h3>Curriculum Vitae</h3>
+
         <p>
           I am currently studying online at Noroff and will be finish 06.2023,
-          and working in a small project at Felo AS.
+          and i also working on a small project for Felo AS.
         </p>
         <p>
           I always had passion for Frontend developing. I am purposeful, curious
-          to improve myself and take responsibility for my work. I also are used
-          to cooperate and used to have time pressure for deadlines.
+          to improve myself and I like to take responsibility for my work. I
+          also are used to cooperate and used to have time pressure for
+          deadlines.
         </p>
         <div class="section-space">
           <h4>Languages</h4>
@@ -60,13 +64,20 @@
     <section class="main-container flex-wrapper">
       <div>
         <h4>Work</h4>
-        <h3>Frontend Developer JR</h3>
+        <h3>Junior Frontend Developer</h3>
         <p>Felo AS - 06.2022 - 08.2022</p>
       </div>
       <div>
         <h4>Education</h4>
         <h3>Frontend Developer student</h3>
         <p>Noroff - 08.2021 - 06-2022</p>
+        <a href="/images/grade-gl.png" download>
+          <img
+            class="short-section-space"
+            src="/images/grade-icon.png"
+            alt="my grades from school"
+          />
+        </a>
       </div>
     </section>
     <section class="main-container flex-wrapper section-space">
@@ -87,9 +98,7 @@
         <p>FileZilla</p>
       </div>
     </section>
-
     <div class="main-container section-line long-section-space"></div>
-
     <section class="main-container long-section-space">
       <h4 class="center-items color-text">
         Technical and Industrial Production
@@ -117,20 +126,22 @@
         <p class="color-text">GSK Offshore course</p>
         <p class="color-text">NOG-116. Load securing</p>
         <p class="color-text">G11. Lifting crane</p>
-        <p class="color-text">T1 T2 T4 Forklift</p>
+        <p class="color-text">T1. T2. T4. Forklift</p>
         <p class="color-text">A. A. B. Self-propelled/mounted/Manually lifts</p>
       </div>
     </section>
     <footer class="footer-background long-section-space">
       <div class="header-footer-wrapper flex-wrapper">
         <div>
-          <p>gonlonge@icloud.com</p>
+          <a href="mailto:gonlonge@icloud.com"
+            ><p class="button-style-body">gonlonge@icloud.com</p></a
+          >
         </div>
         <div>
           <p>All rights reserved ©</p>
         </div>
       </div>
     </footer>
-    <script src="js/home.js"></script>
+    <script src="js/menuItem.js"></script>
   </body>
 </html>
