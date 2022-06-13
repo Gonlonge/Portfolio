@@ -285,6 +285,7 @@ footer {
   .link-buttons ul {
     width: 100%;
     flex-direction: column;
+    padding-inline-start: 0px;
   }
 
   .link-buttons ul li {
